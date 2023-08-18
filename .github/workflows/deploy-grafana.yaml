@@ -1,4 +1,4 @@
-name: Deploy Grafana to GKE cloud
+name: Deploy Grafana to GKE 
 
 on:
   push:
