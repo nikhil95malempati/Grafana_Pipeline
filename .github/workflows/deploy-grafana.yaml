@@ -22,7 +22,6 @@ jobs:
 
     - name: Authenticate to GKE
       run: |
-        gcloud container clusters get-credentials YOUR_CLUSTER_NAME --zone YOUR_ZONE
         gcloud container clusters get-credentials cluster-2 --zone us-central1-c
 
     - name: Deploy Grafana
